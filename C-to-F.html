@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="Home.html" class="nav-link" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="F-to-C.html" class="nav-link">F to C</a></li>
+        <li class="nav-item"><a href="C-to-F.html" class="nav-link active">C to F</a></li>
+      </ul>
+    </header>
+  </div>
+  <div class="Website">
+    <p>Celsius: <input type="number" id="C-to-F" value=""></p>
+    <p>
+      <input type="button" id="ConverterC" value="Convert Celsius to Fahrenheit">
+      <input type="button" id="Reset" value="Reset">
+    </p>
+    <p>Result: <input type="text" id="Answer" value="Answer"></p>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
